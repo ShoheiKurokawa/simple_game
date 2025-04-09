@@ -37,7 +37,7 @@ let imagesLoaded = 0;
 
 function onImageLoad() {
     imagesLoaded++;
-    if (imagesLoaded === 6) {
+    if (imagesLoaded === 7) {
         initialize();
     }
 }
@@ -49,13 +49,13 @@ nephiObjSword.onload = onImageLoad;
 nephiObjBoth.onload = onImageLoad;
 plateObj.onload = onImageLoad;
 swordObj.onload = onImageLoad;
-//labanObj.onload = onImageLoad;
+labanObj.onload = onImageLoad;
 
 
 // Set sources (this starts the loading)
 swordObj.src = "images/sword.png";
 nephiObj.src = "images/nephi.png";
-// labanObj.src = "images/laban.png";
+labanObj.src = "images/laban.png";
 nephiObjPlate.src = "images/nephiPlate.png";
 nephiObjSword.src = "images/nephiSword.png";
 nephiObjBoth.src = "images/nephiBoth.png";
